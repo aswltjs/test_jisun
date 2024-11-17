@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 컨테이너 내의 모든 요소를 중앙 정렬 */
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.질문 {
+  font-size: 20px;
+  color: #ffffff;
+  width: 330px; /* .문항질문과 동일한 너비 설정 */
+  line-height: 1.5;
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  padding-bottom: 20px; /* 패딩 추가 */
+}
+
+/* 반응형 디자인 적용 */
+@media (max-width: 800px) {
+  .질문 {
+    font-size: 20px; /* 작은 화면에서 글꼴 크기 조정 */
+  }
+}
+
+@media (max-width: 800px) {
+  .질문 {
+    font-size: 18px; /* 더 작은 화면에서 글꼴 크기 조정 */
+    padding-bottom: 20px; /* 패딩 조정 */
+  }
+}

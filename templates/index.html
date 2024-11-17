@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/body.css" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="../static/css/glf.css" />
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div>
+      <a href="{{ url_for('static', path='/age.html') }}" class="skip">Skip</a>
+    </div>
+    <div class="인트로-main" id="main">
+      <div class="인트로" id="intro">안녕하세요.</div>
+      <div class="인트로" id="intro-1">내가 어떤 유형의 <br />상태인지</div>
+      <div class="인트로" id="intro-2">
+        알아보는 <br />시간을 가져 보겠습니다.
+      </div>
+      <div class="인트로" id="intro-3">솔직하게 <br />답변해 주세요.</div>
+    </div>
+    <div>
+      <img class="glf-mo" src="/static/images/mo.gif" alt="GIF Image" />
+      <a
+        class="start-1"
+        id="start"
+        href="{{ url_for('static', path='/age.html') }}"
+        >시작하기</a
+      >
+    </div>
+    <script src="/static/js/intor.js"></script>
+  </body>
+</html>

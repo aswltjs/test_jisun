@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-pink.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        하루에 직장에서의 지내는 <br />시간은 어느 정도인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="question-2"
+          onclick="selectAnswer(event, '하루에 직장에서의 지내는 시간은 어느 정도인가요?', '8시간 이하', '/static/02/y-3.html')"
+          >8시간 이하</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="question-2"
+          onclick="selectAnswer(event, '하루에 직장에서의 지내는 시간은 어느 정도인가요?', '8시간 이상', '/static/02/y-8.html')"
+          >8시간 이상</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="question-3"
+          onclick="selectAnswer(event, '하루에 직장에서의 지내는 시간은 어느 정도인가요?', '직장을 다니지 않음', '/static/03/s-8.html')"
+          >직장을 다니지 않음</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

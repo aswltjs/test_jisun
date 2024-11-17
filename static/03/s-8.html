@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-green.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        지금 현재 상황에 나에게 <br />제일 중요한 우선순위는 무엇인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, '지금 현재 상황에 나에게 제일 중요한 우선순위는 무엇인가요?','직장에서의 성과,취업 혹은 학업','/static/04/u-6.html')"
+          >직장에서의 성과,취업 혹은 학업
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '지금 현재 상황에 나에게 제일 중요한 우선순위는 무엇인가요?','연애,결혼,인간관계','/static/04/u-1.html')"
+          >연애,결혼,인간관계
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

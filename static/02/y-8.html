@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-yellow.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신이 지내는 곳의 환경은 <br />항상 정돈되어 있나요?(직장 혹은 집)
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, ' 당신이 지내는 곳의 환경은 항상 정돈되어 있나요?(직장 혹은 집)','정돈된 편이다.','/static/03/s-8.html')"
+          >정돈된 편이다.</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, ' 당신이 지내는 곳의 환경은 항상 정돈되어 있나요?(직장 혹은 집)','정리가 안 돼있다.','y-2.html')"
+          >정리가 안 돼있다.</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "ONE-Mobile-Title";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ONE-Mobile-Title", sans-serif;
+}
+
+.질문 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트 그림자 효과 */
+}
+
+.ten {
+  text-decoration: none;
+  padding-bottom: 30px;
+}

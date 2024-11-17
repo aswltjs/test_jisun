@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white; /* 텍스트 색상을 흰색으로 설정하여 배경과 대조되게 합니다 */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* 뷰포트 높이를 채우도록 설정 */
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column; /* 수직 정렬 */
+  overflow: hidden; /* 스크롤 방지 */
+}
+
+.인트로-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.인트로 {
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.5;
+}
+
+.skip {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px; /* 오른쪽에 고정 */
+  color: white;
+  text-decoration: none;
+  z-index: 100; /* 다른 요소 위에 위치 */
+}
+
+.start-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* 초기에는 버튼을 숨김 */
+  pointer-events: none; /* 초기에는 클릭을 방지 */
+  transition: opacity 1s ease;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: center; /* 버튼 내 텍스트 중앙 정렬 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.start-1:hover {
+  background-color: #0056b3;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .skip {
+    font-size: 20px; /* 작은 화면에서 글꼴 크기 조정 */
+    right: 5px; /* 모바일 화면에서 오른쪽 여백 조정 */
+    top: 5px; /* 모바일 화면에서 상단 여백 조정 */
+  }
+
+  .인트로 {
+    font-size: 18px; /* 인트로 텍스트 크기 조정 */
+  }
+}

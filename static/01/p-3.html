@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3번</title>
+    <link rel="stylesheet" href="css/Question-pink.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        일주일에 주 몇 회 <br />운동을 하시나요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-1"
+          onclick="selectAnswer(event, '일주일에 주 몇 회 운동을 하시나요?', '3회 이상','p-7.html')"
+          >3회 이상</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          onclick="selectAnswer(event, '일주일에 주 몇 회 운동을 하시나요?', '1회 이상','p-7.html')"
+          >1회 이상</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-3"
+          onclick="selectAnswer(event,'일주일에 주 몇 회 운동을 하시나요?', '하지 않음','p-7.html')"
+          >하지 않음</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

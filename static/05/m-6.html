@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-blue.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신이 성취를 통해 얻는 보상심리 중 <br />더 선호 하는 쪽은?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, '당신이 성취를 통해 얻는 보상심리 중 더 선호 하는 쪽은?','자존감, 사회적 인정','/static/04/u-1.html')"
+          >자존감, 사회적 인정
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '당신이 성취를 통해 얻는 보상심리 중 더 선호 하는 쪽은?','금전적 보상','m-2.html')"
+          >금전적 보상</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

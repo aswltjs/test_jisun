@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  gap: 60px;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.질문 {
+  color: aliceblue;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.여자 {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.남자 {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 100px; /* 아이콘의 초기 크기 */
+  height: 100px;
+  transition: transform 0.6s ease, filter 0.6s ease; /* 애니메이션을 부드럽게 적용 */
+}
+
+.icon:hover {
+  /* 모양 일그러짐, 확대 및 블러 효과 */
+  transform: scale(1.2) rotate(5deg) skew(5deg, 5deg);
+  filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(2481%)
+    hue-rotate(212deg) brightness(106%) contrast(102%);
+  animation: bounce 0.6s forwards; /* 마우스를 올리면 애니메이션 시작 */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* 시작 위치 */
+  }
+  50% {
+    transform: translateY(-10px); /* 위로 10px 이동 */
+  }
+  100% {
+    transform: translateY(0); /* 원래 위치로 돌아옴 */
+  }
+}

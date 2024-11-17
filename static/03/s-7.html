@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-green.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신이 직장에서 일을 할 때 <br />더 스트레스 받는 부분은 <br />어떤
+        것인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="1"
+          onclick="selectAnswer(event, '당신이 직장에서 일을 할때 더 스트레스 받는 부분은 어떤것인가요?','직장동료들 과의 관계','s-4.html')"
+          >직장동료들 과의 관계
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, '당신이 직장에서 일을 할때 더 스트레스 받는 부분은 어떤것인가요?','과도한 업무','/static/04/u-6.html')"
+          >과도한 업무
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

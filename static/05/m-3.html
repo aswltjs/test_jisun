@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-blue.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신은 나에게 보상이 오지 않더라도 <br />성취감을 느낄 수 있으면 보람을
+        <br />느끼나요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, '당신은 나에게 보상이 오지 않더라도 성취감을 느낄 수 있으면 보람을 느끼나요?','그렇다.','m-4.html' )"
+          >그렇다.
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, '당신은 나에게 보상이 오지 않더라도 성취감을 느낄 수 있으면 보람을 느끼나요?','아니다.','m-6.html')"
+          >그렇지 않다.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

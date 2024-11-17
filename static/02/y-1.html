@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1번</title>
+    <link rel="stylesheet" href="css/Question-yellow.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신은 새로운 도전을 하는 것과 <br />기존의 안정함을 유지하는 것 중에
+        <br />어떤 타입인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event,'당신은 새로운 도전을 하는 것과 기존의 안정함을 유지하는 것 중에 어떤 타입인가요?', '새로운 도전','/static/02/y-3.html')"
+          >새로운 도전</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event,'당신은 새로운 도전을 하는 것과 기존의 안정함을 유지하는 것 중에 어떤 타입인가요?', '기존의 안정함 유지','y-4.html')"
+          >기존의 안정함 유지</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

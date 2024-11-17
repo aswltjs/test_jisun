@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-purple.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        주변에 기대에 못 미칠 때 <br />드는 생각은 어떤 것인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, '주변에 기대에 못 미칠 떄 드는 생각은 어떤 것인가요?','상관없다.','u-5.html')"
+          >상관없다.</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, '주변에 기대에 못 미칠 떄 드는 생각은 어떤 것인가요?','조급하고 자존심이 상한다.','u-6.html')"
+          >조급하고 자존심이 상한다.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.glf-mo {
+  margin-top: -300px;
+  top: 500px; /* 위쪽으로 이동 */
+  left: 10px; /* 왼쪽으로 이동 */
+
+  width: 300px; /* GIF 이미지 크기 조정 */
+}

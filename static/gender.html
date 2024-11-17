@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <!-- 언어 설정을 한국어로 변경 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>성별</title>
+    <link rel="stylesheet" href="css/Gender.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="질문">당신의 성별은 무엇입니까?</div>
+    <div class="main">
+      <div class="성별">
+        <div class="Woman">
+          <a href="#" class="여자">
+            <img
+              src="assets/동그라미.svg"
+              alt="여자 아이콘"
+              class="icon"
+              onclick="selectAnswerWithoutCounter(event, '성별', '여자', '/static/01/p-1.html')"
+            />
+            여자
+          </a>
+        </div>
+      </div>
+      <div class="성별">
+        <div class="man">
+          <a
+            href="#"
+            class="남자"
+            onclick="selectAnswerWithoutCounter(event, '성별', '남자', '/static/01/p-1.html')"
+          >
+            <img src="assets/동그라미.svg" alt="남자 아이콘" class="icon" />
+            남자
+          </a>
+        </div>
+        <script src="../static/js/question.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

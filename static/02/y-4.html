@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-yellow.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신이 요즘 신경을 쓰는 것과 <br />가까운쪽은?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="0"
+          onclick="selectAnswer(event, '당신이 요즘 신경을 쓰는 것과 가까운쪽은?', '건강','y-5.html')"
+          >건강</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '당신이 요즘 신경을 쓰는 것과 가까운쪽은?', '금전','/static/03/s-1.html')"
+          >금전</a
+        >
+      </div>
+
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '당신이 요즘 신경을 쓰는 것과 가까운쪽은?', '인간관계','/static/03/s-1.html')"
+          >인간관계</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-green.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신은 기존에 알던 사람들 외에 <br />
+        관계를 더 이어가려고 하는 편인가요<br />
+        그렇지 않은 편인가요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="1"
+          onclick="selectAnswer(event, '당신은 기존에 알던 사람들 외에 관계를 더 이어가려고 하는 편인가요 그렇지 않은 편인가요?','지금 사람들 외에 관계에서 사람들을 더 늘려가고 싶지 않다.','s-3.html')"
+          >지금 사람들 외에 관계에서 <br />사람들을 더 늘려가고 싶지 않다.
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '당신은 기존에 알던 사람들 외에 관계를 더 이어가려고 하는 편인가요 그렇지 않은 편인가요?','새로운 사람과 인연을 만나는 건 즐겁다.','s-6.html')"
+          >새로운 사람과 인연을 만나는 건 <br />즐겁다.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

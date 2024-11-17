@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(9, 32, 61);
+  color: white; /* 텍스트 색상을 흰색으로 설정하여 배경과 대조되게 합니다 */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column; /* 수직 정렬 */
+  gap: 35px; /* 박스 간의 간격 조정 */
+  /* 수직 정렬 */
+}
+
+.문항질문 {
+  text-decoration: none;
+  width: 330px; /* 고정 너비 설정 */
+  height: 84px; /* 고정 높이 설정 */
+  background-color: #f0f0f0;
+  color: #473f3f;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 110;
+  box-sizing: border-box;
+  overflow: hidden; /* 텍스트 넘침 방지 */
+  display: flex;
+  align-items: center; /* 수직 가운데 정렬 */
+  justify-content: flex-start; /* 수평 왼쪽 정렬 */
+  line-height: 1.5;
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+}
+
+@media (max-width: 800px) {
+  .질문 {
+    font-size: 20px;
+  }
+
+  .문항질문 {
+    font-size: 14px; /* 작은 화면에서 글꼴 크기 조정 */
+  }
+}

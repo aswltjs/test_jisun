@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-purple.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신은 타인에게 의식을 <br />많이 하는 편인가요?
+      </div>
+
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="1"
+          onclick="selectAnswer(event,'당신은 타인에게 의식을 많이 하는 편인가요?','그런편이다.','/static/03/s-3.html')"
+          >그런편이다.
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href=""
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event,'당신은 타인에게 의식을 많이 하는 편인가요?','아니다.','/static/05/m-7.html')"
+          >아니다.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

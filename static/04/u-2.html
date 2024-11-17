@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-purple.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        친구나 혹은 지인이 sns에 <br />게시물을 업로드 했을 때 <br />어떤 생각이
+        드나요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="1"
+          onclick="selectAnswer(event, '친구나 지인이 sns에 게시물을 업로드 했을 때 어떤 생각이 드나요?','아무생각이 없다.','u-8.html')"
+          >아무생각이 없다.</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, '친구나 지인이 sns에 게시물을 업로드 했을 때 어떤 생각이 드나요?','이번 주에 나는 무엇을 했는지 생각한다.','/static/01/p-6.html')"
+          >이번 주에 나는 무엇을 했는지 생각한다.
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="1"
+          onclick="selectAnswer(event, '친구나 지인이 sns에 게시물을 업로드 했을 때 어떤 생각이 드나요?','SNS를 하지 않음.','/static/03/s-4.html')"
+          >SNS를 하지 않음.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

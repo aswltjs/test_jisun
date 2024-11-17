@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column; /* 수직 정렬 */
+}
+
+.문항-1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  /* 질문과 항목 간의 간격 조정 */
+}
+
+.문항질문-1 {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column;
+  /* 질문과 항목 간의 간격 조정 */
+}
+
+.문항질문-2 {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+.문항질문-3 {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+.문항-2-1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.문항-3-1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column;
+}

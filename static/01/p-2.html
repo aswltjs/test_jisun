@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2번</title>
+    <link rel="stylesheet" href="css/Question-pink.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        평균적으로 몇 시간의 <br />수면을 하시나요?
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="2"
+          onclick="selectAnswer(event, '평균적으로 몇 시간의 수면을 하시나요?', '4시간 이상 혹은 이하','p-3.html')"
+          >4시간 이상 혹은 이하</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '평균적으로 몇 시간의 수면을 하시나요?', '6시간 이상 혹은 이하','p-3.html')"
+          >6시간 이상 혹은 이하</a
+        >
+      </div>
+
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-3"
+          value="1"
+          onclick="selectAnswer(event, '평균적으로 몇 시간의 수면을 하시나요?', '10~14시간 이상 혹은 이하','/static/01/p-3.html')"
+          >10~14시간 이상 혹은 이하</a
+        >
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

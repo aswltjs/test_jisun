@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Question-purple.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        당신은 중요한 계획이나,<br />(시험, 취업 준비 등) 일 때 <br />주변
+        환경에 어떤 쪽으로 행동하나요?
+      </div>
+
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="10-1"
+          value="1"
+          onclick="selectAnswer(event, '당신은 중요한 계획이나(시험,취업 준비 등)일 때 주변 환경에 어떤 쪽으로 행동하나요?','집중해야 하므로 예민한 상태이며,사람들과의 연락을 잘 하지 않는다.','u-8.html')"
+          >집중해야 하므로 예민한 상태이며<br />
+          사람들과의 연락을 잘 하지 않는다.
+        </a>
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="20-2"
+          value="0"
+          onclick="selectAnswer(event, '당신은 중요한 계획이나(시험,취업 준비 등)일 때 주변 환경에 어떤 쪽으로 행동하나요?','평소와 변화는 없다.','/static/05/m-1.html')"
+          >평소와 변화는 없다.
+        </a>
+      </div>
+    </div>
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>

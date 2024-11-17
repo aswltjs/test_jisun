@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1번</title>
+    <link rel="stylesheet" href="css/Question-pink.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../01/css/question-title.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="질문" id="question-container">
+        하루에 몇 번의 식사를 <br />하시나요? (아침,점심,저녁)
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="문항질문-1"
+          value="2"
+          onclick="selectAnswer(event, '하루에 몇 번의 식사를 하시나요?', '3번','/static/01/p-2.html')"
+          >3번</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="문항질문-1"
+          value="0"
+          onclick="selectAnswer(event, '하루에 몇 번의 식사를 하시나요?', '2번','/static/01/p-2.html')"
+          >2번</a
+        >
+      </div>
+      <div>
+        <a
+          class="문항질문"
+          href="#"
+          id="문항질문-1"
+          value="1"
+          onclick="selectAnswer(event, '하루에 몇 번의 식사를 하시나요?', '한번 혹은 먹지 않음','/static/01/p-2.html')"
+          >한번 혹은 먹지 않음</a
+        >
+      </div>
+    </div>
+
+    <div id="counter">선택 횟수: 0 / 15</div>
+    <div id="result"></div>
+    <script src="../js/question.js"></script>
+  </body>
+</html>
